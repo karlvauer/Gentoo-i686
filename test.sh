@@ -25,7 +25,7 @@ mount /dev/sda3 /mnt/gentoo
 
 # Installing stage 3 tarball, skipping verification for sake of time
 cd /mnt/gentoo
-wget <https://bouncer.gentoo.org/fetch/root/all/releases/x86/autobuilds/20220704T170542Z/stage3-i686-openrc-20220704T170542Z.tar.xz>
+wget https://bouncer.gentoo.org/fetch/root/all/releases/x86/autobuilds/20220704T170542Z/stage3-i686-openrc-20220704T170542Z.tar.xz
 tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
 
 # ================= add something here for editing /mnt/gentoo/make.conf
